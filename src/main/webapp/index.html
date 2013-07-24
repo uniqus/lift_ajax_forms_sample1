@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>Home</title>
+</head>
+<body class="lift:content_id=main">
+  <div id="main" class="lift:surround?with=default;at=content">
+    <h2>This is a sample ajax form</h2>
+    <form method="POST" data-lift="form.ajax">
+      <div data-lift="MySampleForm?data-table-id=data-tables-test">
+        <table id="data-tables-test">
+        <thead>
+          <tr>
+          <th>&nbsp;</th>
+          <th>ID</th>
+          <th>Name</th>
+          </tr>
+        </thead>
+        <tbody>
+        <tr data-row-template="1">
+          <td><input type="checkbox"></td>
+          <td><span class="item-id"></span></td>
+          <td><span class="item-name"></span></td>
+        </tr>
+        </tbody>
+        </table>
+        <p>
+          <input id="test-button" type="submit" value="Test">
+        </p>
+      </div>
+    </form>
+    <p id="test-results">Test results will appear here...</p>
+  </div>
+</body>
+</html>

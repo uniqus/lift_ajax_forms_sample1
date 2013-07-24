@@ -1,0 +1,9 @@
+lib_managed
+project/boot
+project/build/target
+target
+.cache
+.settings
+.project
+.classpath
+
