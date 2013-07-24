@@ -1,4 +1,5 @@
-pub-lift
+lift_ajax_forms_sample1
 ========
 
-My public liftweb projects
+This is a sample Liftweb project which demonstrates an issue with ajax-submitted form elements.
+

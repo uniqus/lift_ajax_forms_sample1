@@ -6,4 +6,6 @@ target
 .settings
 .project
 .classpath
+*.log
+*.db
 
